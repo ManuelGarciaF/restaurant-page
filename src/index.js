@@ -4,23 +4,21 @@ import renderAbout from "./about";
 
 function renderTab(tabId) {
   const contentDiv = document.getElementById("content");
-  contentDiv.innerHTML = ''
+  contentDiv.innerHTML = "";
   switch (tabId) {
     case 0:
-      renderRestaurant(contentDiv)
+      renderRestaurant(contentDiv);
       break;
     case 1:
-      renderMenu(contentDiv)
+      renderMenu(contentDiv);
       break;
     case 2:
-      renderAbout(contentDiv)
+      renderAbout(contentDiv);
       break;
   }
 }
 
-
 const tabButtons = document.querySelectorAll(".tab");
-
 
 tabButtons.forEach(elem => {
   elem.addEventListener("click", event => {
