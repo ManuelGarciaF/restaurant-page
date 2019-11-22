@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return renderAbout; });\n/* harmony import */ var _appendElement__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appendElement */ \"./src/appendElement.js\");\n\n\nfunction renderAbout(contentDiv) {\n}\n\n//# sourceURL=webpack:///./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return renderAbout; });\n/* harmony import */ var _appendElement__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appendElement */ \"./src/appendElement.js\");\n\n\nfunction renderAbout(contentDiv) {\n  const aboutText = Object(_appendElement__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(contentDiv, \"h3\", [\"about-text\"])\n  aboutText.textContent = \"Made by Manuel Garcia for The Odin Project.\"\n}\n\n//# sourceURL=webpack:///./src/about.js?");
 
 /***/ }),
 
