@@ -1,6 +1,5 @@
 # Restaurant Webpage Project from TOP
 
-## TODO:
-- ~~Finish `menu.js`~~
-- ~~Finish `about.js`~~
-- Host on gh-pages [Guide here](https://gist.github.com/cobyism/4730490)
+### Mockup of a restaurant page to familiarize myself with webpack, ES6 modules and npm
+
+[Visit Here](https://manuelgarciaf.github.io/restaurant-page/)
