@@ -112,7 +112,7 @@ button {
   flex-direction: row;
 
   padding: 2vh 1vw;
-  margin: 0 0 5vh 0;
+  margin-bottom: 5vh;
 
   background-color: rgb(231, 231, 231);
 }
@@ -123,4 +123,14 @@ button {
 
 .menu-item img {
   height: 60vh;
+}
+
+.about-text {
+  padding: 5vh;
+  background-color: rgb(231, 231, 231);
+  margin-bottom: 90vh;
+}
+
+.about-text h3 {
+  font-size: large;
 }
