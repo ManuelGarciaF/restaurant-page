@@ -79,12 +79,12 @@ button {
   margin: 1em;
 }
 
-.restaurant-tab .text-div {
+.text-div {
   display: flex;
   flex-direction: column;
 
   align-items: flex-start;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 
   margin: 3em 1em;
 
@@ -104,4 +104,22 @@ button {
 
 .restaurant-text {
   text-align: start;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+
+  padding: 2vh 1vw;
+  margin: 0 0 5vh 0;
+
+  background-color: rgb(231, 231, 231);
+}
+
+.menu-item h4 {
+  font-size: larger;
+}
+
+.menu-item img {
+  height: 60vh;
 }
