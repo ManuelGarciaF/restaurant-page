@@ -4,7 +4,7 @@ export default function renderRestaurant(contentDiv) {
   const tabDiv = appendElement(contentDiv, "div", ["restaurant-tab"])
 
   const img = appendElement(tabDiv, "img", ["restaurant-image"])
-  img.src = "./restaurant.jpeg"
+  img.src = "./img/restaurant.jpeg"
   img.alt = "Restaurant Image"
 
   const textDiv = appendElement(tabDiv, "div", ["text-div"])
